@@ -1,4 +1,7 @@
-const theme1 = {
+// eslint-disable-next-line no-unused-vars
+import { Theme } from 'typings/theme/theme'
+
+const theme1: Theme = {
   palette: {
     primary: {
       main: '#FFDE03',
@@ -14,80 +17,81 @@ const theme1 = {
     },
   },
   typography: {
+    // fontFamily: 'Rubik, sans-serif',
     h1: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 96,
       // lineHeight:
       // letterSpacing:
     },
     h2: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 60,
       // lineHeight:
       // letterSpacing:
     },
     h3: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 48,
       // lineHeight:
       // letterSpacing:
     },
     h4: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 34,
       // lineHeight:
       // letterSpacing:
     },
     h5: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 24,
       // lineHeight:
       // letterSpacing:
     },
     h6: {
-      fontWeigth: 'medium',
+      fontWeight: 500,
       fontSize: 20,
       // lineHeight:
       // letterSpacing:
     },
     subtitle1: {
-      fontWeigth: 'medium',
+      fontWeight: 500,
       fontSize: 16,
       // lineHeight:
       // letterSpacing:
     },
     subtitle2: {
-      fontWeigth: 'medium',
+      fontWeight: 500,
       fontSize: 14,
       // lineHeight:
       // letterSpacing:
     },
     body1: {
-      fontWeigth: 'regular',
+      fontWeight: 400,
       fontSize: 16,
       // lineHeight:
       // letterSpacing:
     },
     body2: {
-      fontWeigth: 'regular',
+      fontWeight: 400,
       fontSize: 14,
       // lineHeight:
       // letterSpacing:
     },
     button: {
-      fontWeigth: 'bold',
+      fontWeight: 700,
       fontSize: 14,
       // lineHeight:
       // letterSpacing:
     },
     caption: {
-      fontWeigth: 'regular',
+      fontWeight: 400,
       fontSize: 12,
       // lineHeight:
       // letterSpacing:
     },
     overline: {
-      fontWeigth: 'regular',
+      fontWeight: 400,
       fontSize: 10,
       textTransform: 'uppercase',
       // lineHeight:

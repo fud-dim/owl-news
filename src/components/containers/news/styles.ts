@@ -1,13 +1,15 @@
 import { createUseStyles } from 'react-jss'
+import { Theme } from 'typings/theme/theme'
 
-const useNewsStyles = createUseStyles((theme: any) => ({
+const useNewsStyles = createUseStyles((theme: Theme) => ({
   page: {
     backgroundColor: theme.palette.primary.main,
     width: '100%',
     minHeight: '100vh',
   },
   page__title: {
-    margin: 0,
+    // margin: 0,
+    ...theme.typography.h2,
   },
 
   articleContainer: {
